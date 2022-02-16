@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rumahsakit_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainColor">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardBackgroundColor="#000000"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.daimajia.swipe.SwipeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bedcall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="#9C4A00"
+                    android:drawableStart="@drawable/ic_call"
+                    android:padding="5dp"
+                    android:text="Call RS"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/bedmaps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/material_blue_grey_80"
+                    android:drawableStart="@drawable/ic_location"
+                    android:padding="5dp"
+                    android:text="Open Map"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/beddeatil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/black"
+                    android:drawableEnd="@drawable/ic_navigate"
+                    android:padding="5dp"
+                    android:text="Detail"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/rs_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/baloo2_medium"
+                    android:text="1. Rumah Sakit Eka Hospital"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/jalanrs_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo2_regular"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/rs_name"
+                    app:layout_constraintTop_toBottomOf="@+id/rs_name"
+                    tools:text="Jl. Harapan Indah, Bekasi" />
+
+                <TextView
+                    android:id="@+id/bedWaiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/baloo2_regular"
+                    android:padding="2dp"
+                    android:text="Waiting\n3"
+                    android:textAlignment="center"
+                    android:textColor="@color/custom_warning_color"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toStartOf="@+id/bedAvail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/jalanrs_name" />
+
+                <TextView
+                    android:id="@+id/bedAvail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo2_medium"
+                    android:padding="2dp"
+                    android:text="Available\n5"
+                    android:textAlignment="center"
+                    android:textColor="@color/success_color"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bedWaiting"
+                    app:layout_constraintEnd_toStartOf="@+id/bedFull"
+                    app:layout_constraintStart_toEndOf="@+id/bedWaiting"
+                    app:layout_constraintTop_toTopOf="@+id/bedWaiting" />
+
+                <TextView
+                    android:id="@+id/bedFull"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo2_medium"
+                    android:padding="2dp"
+                    android:text="Not\nAvailable"
+                    android:textAlignment="center"
+                    android:textColor="@color/design_default_color_error"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bedAvail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bedAvail"
+                    app:layout_constraintTop_toTopOf="@+id/bedAvail" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="200dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/jalanrs_name" />
+
+                <TextView
+                    android:id="@+id/updateData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/baloo2_medium"
+                    android:text="Last Update : 22 - 01 - 2022"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.daimajia.swipe.SwipeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
