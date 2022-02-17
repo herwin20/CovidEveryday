@@ -24,13 +24,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Screenshot](#sc)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -99,25 +93,13 @@ Library yg digunakan pada aplikasi ini diantaranya, Thanks to :
     implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
 ```
 
-## 🔧 Screenshoot <a name = "tests"></a>
+## 🔧 Screenshoot <a name = "sc"></a>
 
-Explain how to run the automated tests for this system.
+Hasil Aplikasi Covid Everyday
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+<img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot1.png"/>
+<img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot2.png"/>
+<img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot3.png"/>
 
 ## 🎈 Usage <a name="usage"></a>
 
