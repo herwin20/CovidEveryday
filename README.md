@@ -25,6 +25,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Screenshot](#sc)
+- [Download App](#download)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -50,6 +51,8 @@ https://github.com/Reynadi531/api-covid19-indonesia-v2
 Data Api Ketersediaan Rumah Sakit
 https://github.com/satyawikananda/rs-bed-covid-indo-api/
 ```
+
+Untuk contoh aplikasi pencarian kamar RS, Thanks to : https://github.com/rickyricko302/RS-Bed-Info-Android-App
 
 ### Library
 
@@ -101,11 +104,7 @@ Hasil Aplikasi Covid Everyday
 <img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot2.png"/>
 <img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot3.png"/>
 
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
+## 🚀 Download <a name = "download"></a>
 
 Add additional notes about how to deploy this on a live system.
 
