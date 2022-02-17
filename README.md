@@ -26,6 +26,8 @@
 - [Getting Started](#getting_started)
 - [Screenshot](#sc)
 - [Download App](#download)
+- [Built Using](#built)
+- [Author](#authors)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -104,22 +106,17 @@ Hasil Aplikasi Covid Everyday
 <img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot2.png"/>
 <img src="https://github.com/herwin20/CovidEveryday/blob/master/Screenshot/Screenshot3.png"/>
 
-## 🚀 Download <a name = "download"></a>
+## 🚀 Download App <a name = "download"></a>
 
-Add additional notes about how to deploy this on a live system.
+Silahkan Download Aplikasi <a href="https://github.com/herwin20/CovidEveryday/releases/download/1.01/covid_everyday101.apk">di sini</a>
 
-## ⛏️ Built Using <a name = "built_using"></a>
+## ⛏️ Built Using <a name = "built"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Android Studio](https://developer.android.com/studio) - Core IDE
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@herwinj](https://github.com/herwin20) - Idea & Initial work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
