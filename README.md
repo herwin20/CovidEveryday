@@ -99,7 +99,7 @@ Library yg digunakan pada aplikasi ini diantaranya, Thanks to :
     implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
 ```
 
-## 🔧 Running the tests <a name = "tests"></a>
+## 🔧 Screenshoot <a name = "tests"></a>
 
 Explain how to run the automated tests for this system.
 
